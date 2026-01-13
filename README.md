@@ -13,7 +13,7 @@ long-term time series forecasting on the **ETTm1** dataset.
 The goal is to verify that simple linear models can achieve competitive
 performance compared to transformer-based approaches, as reported in the paper.
 
----
+<br/>
 
 ### Models
 - **Linear**: Direct linear projection from past to future
@@ -23,7 +23,7 @@ performance compared to transformer-based approaches, as reported in the paper.
 All models are implemented in the **channel-wise independent setting**
 (`individual=True`), following the paper.
 
----
+<br/>
 
 ### Dataset
 - **ETTm1** (15-minute resolution)
@@ -34,7 +34,7 @@ Place the file at:
 ```
 data/ETTm1.csv
 ```
----
+<br/>
 
 ### Usage
 
@@ -47,14 +47,14 @@ Visualize a single test-window forecast:
 ```bash
 python -m scripts.compare_and_plot
 ```
----
+<br/>
 
 ### Notes
 - Evaluation metrics: **MSE / MAE** on the test set
 - Visualization is **qualitative** (single window)
 - Raw data, checkpoints, and figures are excluded for reproducibility
 
----
+<br/>
 
 ### Example Result
 
