@@ -4,3 +4,6 @@ __pycache__/
 results/
 data/*.csv
 .vscode/
+
+!results/figures/
+!results/figures/*.png
